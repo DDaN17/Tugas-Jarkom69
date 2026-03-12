@@ -70,20 +70,21 @@ Dengan Wireshark sudah terinstal, saya lanjut ke bagian kedua modul 2 yang fokus
 
 Melalui aktivitas ini, saya belajar lebih dalam tentang mekanisme permintaan HTTP dari browser dan bagaimana respons ditampilkan dalam Wireshark.
 
-### Lampiran
+Lampiran
 Screenshot-screenshot berikut diambil saat melakukan tugas praktikum:
 
 - Antarmuka utama Wireshark setelah aplikasi diluncurkan:
-  <img width="1919" height="1079" alt="tampilanWireshark" src="https://github.com/user-attachments/assets/1440a515-cfcc-47bf-b8a9-ec752294e84a" />
+  <img width="1919" height="1031" alt="dyandraINTERFACE" src="https://github.com/user-attachments/assets/9504afd3-5c9a-433d-ac3e-0c4e4479319e" />
 
-- Daftar paket yang berhasil ditangkap melalui koneksi Wi-Fi:
-  <img width="1919" height="1079" alt="tampilanCaptureFromWifi" src="https://github.com/user-attachments/assets/7b2279bc-47a1-4d23-922a-f157e3cb5156" />
+
+- Daftar paket yang berhasil ditangkap melalui koneksi Ethernet:
+ <img width="1919" height="1030" alt="Capture" src="https://github.com/user-attachments/assets/69b79f72-e17d-43f5-a90d-92f47412d242" />
+
 
 - Tampilan browser yang menunjukkan halaman lab sederhana:
-  <img width="1919" height="1028" alt="tampilanBrowserPadaLinkHtml" src="https://github.com/user-attachments/assets/26d4d622-7d17-4ad9-8883-79f5bdf3d287" />
+  <img width="1334" height="815" alt="WEB" src="https://github.com/user-attachments/assets/fafcf2de-0060-49d1-aa89-51ba49c9db8b" />
 
-- Hasil filter paket menggunakan kata kunci "http":
-  <img width="1919" height="1079" alt="tampilanCaptureFromWifiWithFilterHTTP" src="https://github.com/user-attachments/assets/a3b8f8e0-177b-41e6-b515-2be39c9147f8" />
 
-- Isi dari "Line-based text data" yang berisi respons HTML:
-  <img width="972" height="492" alt="lineBasedTextDataHtmlVer" src="https://github.com/user-attachments/assets/5cc3e036-5f8d-46ad-ba42-93aafc5e75d4" />
+- Hasil filter paket menggunakan kata kunci "http" dan Isi dari "Line-based text data" yang berisi respons HTML:
+<img width="1919" height="1035" alt="HTTP" src="https://github.com/user-attachments/assets/84805406-7d28-4ffa-b2aa-ed02827ee0cf" />
+
