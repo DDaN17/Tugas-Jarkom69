@@ -9,11 +9,9 @@
  ╚═══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-# 🌐 Tugas Jaringan Komputer
+# Tugas Jaringan Komputer
 
 ![Telkom University](https://img.shields.io/badge/Telkom_University-CC0000?style=for-the-badge&logo=googlescholar&logoColor=white)
-![Informatika](https://img.shields.io/badge/Teknik_Informatika-IF--04--05-blue?style=for-the-badge&logo=academia&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 </div>
 
@@ -21,7 +19,6 @@
 
 ## 👤 Identitas Mahasiswa
 
-| Field | Detail |
 |-------|--------|
 | 👨‍💻 **Nama** | Dyandra Alifyan Nugroho |
 | 🎓 **NIM** | 103072400161 |
