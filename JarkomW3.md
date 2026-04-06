@@ -11,4 +11,4 @@ Tujuan Praktikum
 
 1. Get response / http
 Buka wireshark dan pilih wifi
-![Foto](../Tugas-Jarkom69/ASETBERHARGA/Dyandra1.jpeg)
+![Foto](Dyandra1.jpeg)
