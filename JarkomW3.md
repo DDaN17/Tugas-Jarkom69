@@ -10,5 +10,8 @@ Tujuan Praktikum
 ---
 
 1. Get response / http
-Buka wireshark dan pilih wifi
-![Foto](ASETBERHARGA/Dyandra1.jpeg)
+    Buka wireshark dan pilih wifi
+![WLEE](ASETBERHARGA/Dyandra1.jpeg)
+
+2. Membuka browser lalu masuk ke link berikut, http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.html
+![WLEE](ASETBERHARGA/Dyandra2&3.jpeg)
