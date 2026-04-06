@@ -1,10 +1,10 @@
 <div align="center">
 
 ```
- ██╗ █████╗ ██████╗ ██╗  ██╗ ██████╗ ███╗   ███╗
- ██║██╔══██╗██╔══██╗██║ ██╔╝██╔═══██╗████╗ ████║
- ██║███████║██████╔╝█████╔╝ ██║   ██║██╔████╔██║
-██ ██║██╔══██║██╔══██╗██╔═██╗ ██║   ██║██║╚██╔╝██║
+    ██╗ █████╗ ██████╗ ██╗  ██╗ ██████╗ ███╗   ███╗
+    ██║██╔══██╗██╔══██╗██║ ██╔╝██╔═══██╗████╗ ████║
+    ██║███████║██████╔╝█████╔╝ ██║   ██║██╔████╔██║
+ ██ ██║██╔══██║██╔══██╗██╔═██╗ ██║   ██║██║╚██╔╝██║
 ╚████╔╝██║  ██║██║  ██║██║  ██╗╚██████╔╝██║ ╚═╝ ██║
  ╚═══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
@@ -27,7 +27,6 @@
 | 🎓 **NIM** | 103072400161 |
 | 🏫 **Kelas** | IF-04-05 |
 | 📚 **Mata Kuliah** | Jaringan Komputer |
-| 🏛️ **Universitas** | Telkom University |
 
 ---
 
@@ -41,7 +40,7 @@ Tugas-Jarkom69/
 │
 ├── 📝 JARKOMW1.md            # Worksheet 1
 ├── 📝 JarkomW3.md            # Worksheet 3
-└── 📄 README.md              # You are here!
+└── 📄 README.md              
 ```
 
 ---
@@ -50,7 +49,7 @@ Tugas-Jarkom69/
 
 | No | Worksheet | Topik | Status |
 |----|-----------|-------|--------|
-| 1 | JARKOMW1 | Transport Layer | ✅ Done |
+| 1 | JarkomW1&2 | Transport Layer | ✅ Done |
 | 2 | JarkomW3 | HTTP & Wireshark | ✅ Done |
 
 ---
@@ -68,6 +67,6 @@ Tugas-Jarkom69/
 
 **© 2025 Dyandra Alifyan Nugroho — Teknik Informatika, Telkom University**
 
-*"The network is the computer."*
+*"Komputer Adalah PC."*
 
 </div>
