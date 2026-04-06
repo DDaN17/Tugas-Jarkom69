@@ -19,7 +19,6 @@
 
 ## 👤 Identitas Mahasiswa
 
-|-------|--------|
 | 👨‍💻 **Nama** | Dyandra Alifyan Nugroho |
 | 🎓 **NIM** | 103072400161 |
 | 🏫 **Kelas** | IF-04-05 |
@@ -48,6 +47,7 @@ Tugas-Jarkom69/
 |----|-----------|-------|--------|
 | 1 | JarkomW1&2 | Transport Layer | ✅ Done |
 | 2 | JarkomW3 | HTTP & Wireshark | ✅ Done |
+| 3 | JarkomW4 | Coming soon | Belum |
 
 ---
 
