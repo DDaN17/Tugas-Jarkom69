@@ -11,4 +11,4 @@ Tujuan Praktikum
 
 1. Get response / http
 
-![Dyandra1](../Tugas-Jarkom69/ASET%20BERHARGA/Dyandra1.jpeg)
+![Dyandra1.jpeg](../Tugas-Jarkom69/ASET%20BERHARGA/Dyandra1.jpeg)
