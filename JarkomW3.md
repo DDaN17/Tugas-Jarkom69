@@ -18,3 +18,17 @@ Tujuan Praktikum
 
 3. Perhatikan baris length info berteks 200 ok (text/html), lalu dapat dilihat hypertext dan Line-based text data.
 ![WLEE](ASETBERHARGA/Dyandra4.jpeg)
+
+### HTTP Conditional GET
+5. Buka kembali browser dan masuk ke link berikut, http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html. Buka kembali wireshark dan ketik http pada pencarian. Perhatikan baris length info 200 ok (text/html)
+![WLEE](ASETBERHARGA/Dyandra5&6.jpeg)
+
+### Retrieving Long Documents
+6. Kembali ke browser dan buka link berikut, http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html.
+![WLEE](ASETBERHARGA/Dyandra7.jpeg)
+
+7. Buka kembali wireshark dan ketik http pada pencarian. Perhatikan baris length info 200 ok (text/html),
+   lalu lihat hypertext dan Line-based text datanya.
+![WLEE](ASETBERHARGA/Dyandra8.jpeg)
+![WLEE](ASETBERHARGA/Dyandra9.jpeg)
+![WLEE](ASETBERHARGA/Dyandra10.jpeg)
