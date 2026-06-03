@@ -32,10 +32,9 @@
 Tugas-Jarkom69/
 │
 ├── 📂 ASETBERHARGA/          # Aset gambar & screenshot
-│   └── 🖼️ Dyandra1.jpeg
-│
-├── 📝 JARKOMW1.md            # Worksheet 1
+├── 📝 JarkomW1&2.md          # Worksheet 1 & 2
 ├── 📝 JarkomW3.md            # Worksheet 3
+├── 📝 JarkomW4               # Worksheet 4
 └── 📄 README.md              
 ```
 
