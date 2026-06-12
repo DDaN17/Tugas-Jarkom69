@@ -1,9 +1,4 @@
 # Modul 4 DNS
-Nama       : Dyandra
-NIM        : 103072400161 
-Kelas      : IF-04-05  
-Mata Kuliah: Jaringan Komputer  
-
 Tujuan Praktikum
 - mahasiswa dapat mempelajari cara kerja protokol DNS menggunakan Wireshark.
 
@@ -118,67 +113,77 @@ Berikut langkah-langkah untuk tracing DNS dengan Wireshark:
 
 
 DNS request = destination: 53
-![2e7bc122-9a70-4972-96d0-25df0ad2d87e](https://github.com/user-attachments/assets/6c9e3693-d9c8-4bc0-9358-1eda78bfdac5)
+<img width="953" height="248" alt="image" src="https://github.com/user-attachments/assets/8c40eb23-b721-40f8-974a-868a50103345" />
+
+
 
 DNS response = Source: 53
 
 2. Alamat IP request
-![e425ea4a-1a4b-443b-9326-eeaf90757f74](https://github.com/user-attachments/assets/291db277-b63e-4ee4-80b4-e821b1a43d4f)
+<img width="1600" height="947" alt="image" src="https://github.com/user-attachments/assets/16d2bff3-8230-45bd-97fe-dd32352eb9a1" />
 
-Pada perjobaan tersebut terlihat bahwa request DNS dikirim ke alamat IP 192.168.1.104
+
+Pada percobaan tersebut terlihat bahwa request DNS dikirim ke alamat IP 192.168.1.104
 
 3. Type dan answer request
-![46266650-0691-4200-8829-b160be42b5c5](https://github.com/user-attachments/assets/71e4635d-06f6-4886-8004-34bb583a1f2f)
+<img width="1600" height="951" alt="image" src="https://github.com/user-attachments/assets/25dc951c-f2fc-413c-8aae-71005ed9d00f" />
 
-Pada percobaan yang dilakukan, terlihat bahwa tipe yang muncul adalah AAAA (IPv6 Address Record), yaitu untuk mencari alamat IPv6. Pesan ini belum berisi jawaban karena masih berupa permintaan (query) untuk mencari alamat IPv6 dari domain [www.mit.edu](http://www.mit.edu).
+Pada percobaan yang dilakukan, terlihat bahwa tipe yang muncul adalah AAAA , yaitu untuk mencari alamat IPv6. Pesan ini belum berisi jawaban karena masih berupa permintaan untuk mencari alamat IPv6 dari domain [www.mit.edu](http://www.mit.edu).
 
 ## C. Analisis DNS Record NS Menggunakan nslookup (mit.edu)
 1. Buka CMD ketikan nslookup -type=NS mit.edu
-![a05da96d-e2fa-4615-ba26-406200b33ebb](https://github.com/user-attachments/assets/80998167-398e-40d6-8a83-9fdc20ca3314)
 
-2. Buka Wireshark lalu pilih wifi, setelah itu pada bagian filter ketik dns untuk memunculkan bagian dns saja
-![5586f131-531e-4e56-bbf9-c1196989d3a2](https://github.com/user-attachments/assets/b1f64d02-cecc-4155-bc5c-94346ff65591)
+<img width="743" height="592" alt="image" src="https://github.com/user-attachments/assets/f2d7e73d-4282-4afb-8ccb-355e361eecf1" />
+
+2. Buka Wireshark lalu pilih wifi, setelah itu pada bagian filter ketik dns untuk memunculkan bagian dns saja<img width="1600" height="947" alt="image" src="https://github.com/user-attachments/assets/15996b2a-d315-4e56-9b77-97d57d74b1fc" />
+
 
 3. Ambil data dari Standard query (request) dan Standard query response dari NS mit.edu
-![ee0853fd-5505-417f-bc70-90862e212aee](https://github.com/user-attachments/assets/a1284b5a-4725-4e5c-925d-bee15cfc08f1)
+<img width="1600" height="948" alt="image" src="https://github.com/user-attachments/assets/e73f6e6d-ff86-48de-bc3d-b5daf90c0f40" />
 
 
 ## Pertanyaan 
 1. Alamat IP request
-![f39b8711-7bed-4c29-9d8a-8573cd556646](https://github.com/user-attachments/assets/e39348c2-36d9-4360-8bc3-0294458377d1)
+<img width="1600" height="25" alt="image" src="https://github.com/user-attachments/assets/febdc9bb-459b-4923-8380-1137f13952db" />
+
 
 2. Ketik dan jawab permintaan
-![d1eed941-30b0-4beb-8a37-4f1986d162a2](https://github.com/user-attachments/assets/d568c711-4aae-40d8-98ea-91c3ec44221c)
+<img width="1600" height="949" alt="image" src="https://github.com/user-attachments/assets/c85cd631-9152-4536-a72b-2bb51f7fea83" />
+
 
 Pada percobaan terlihat bahwa tipe request DNS adalah NS, yang berarti belum berisi jawaban karena masih berupa permintaan saja.
 
 3. Jawab Respon
-![07c464ee-4d2b-4684-b5a4-bda36c8363b1](https://github.com/user-attachments/assets/8077af74-01b4-4a8e-9d4c-c8e5fed7813f)
+<img width="1600" height="950" alt="image" src="https://github.com/user-attachments/assets/39d8d40c-7694-49d0-8d66-31702e5921a5" />
+
 
 ## D. Analisis DNS Menggunakan Server Tertentu (www.aiit.or.kr bitsy.mit.edu)
 1. Buka CMD ketikan nslookup www.aiit.or.kr bitsy.mit.edu
-![186b7acc-c965-40f9-8792-2a81927d3c84](https://github.com/user-attachments/assets/619f0785-384b-47cf-9705-94da4bc67199)
+<img width="655" height="296" alt="image" src="https://github.com/user-attachments/assets/60257192-1386-4559-89d5-99e196dcbab5" />
 
 
 2. Buka Wireshark lalu pilih wifi, setelah itu pada bagian filter ketik dns untuk memunculkan bagian dns saja
-![5586f131-531e-4e56-bbf9-c1196989d3a2](https://github.com/user-attachments/assets/b1f64d02-cecc-4155-bc5c-94346ff65591)
+<img width="1600" height="947" alt="image" src="https://github.com/user-attachments/assets/d9586920-0653-4116-bddd-4bc8175d69cc" />
 
 3. Ambil data dari Standard query (request) dari www.aiit.or.kr
-![9e350ae2-c24d-4431-9413-b61b75aeb522](https://github.com/user-attachments/assets/59cbb937-3989-49e2-9cbe-85f6ea146876)
+<img width="1600" height="947" alt="image" src="https://github.com/user-attachments/assets/d7d51c4c-6d7d-42ac-ad3d-3ead0b08b212" />
+
+
 
 
 ## Pertanyaan
 1. Alamat IP request
-![72ef48ea-a973-4837-a046-ff4610fa0e29](https://github.com/user-attachments/assets/ecb09d2d-00d1-4d32-a41f-c8c981b52cf7)
+<img width="1600" height="961" alt="image" src="https://github.com/user-attachments/assets/5b26e1b3-c1cc-440a-a9d8-9636ad37b235" />
 
 Pesan permintaan DNS dikirim ke alamat IP 192,168.1.1 Alamat tersebut merupakan server bitsy.mit.edu yang ditentukan secara manual pada perintah nslookup, sehingga bukan merupakan DNS server lokal
 
 2. Type dan answers request
-![3a08bb46-4542-4e10-a2a9-c1897247d7f5](https://github.com/user-attachments/assets/a34b4dba-21f3-42c9-b2ca-48383f698510)
+<img width="1600" height="950" alt="image" src="https://github.com/user-attachments/assets/536356e9-9d83-4a6c-ba65-44db73bfa573" />
+
 
 Tipe DNS request adalah A (Address Record). Pesan ini tidak mengandung jawaban karena hanya berupa permintaan
 
 3. Berdasarkan hasil di Command Prompt, muncul “DNS request timed out” yang berarti server DNS tidak memberikan respons terhadap permintaan yang dikirim.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/10f41eb8-61f7-4fca-963a-7d1b65ff5e49" width="600"/>
+  <img width="493" height="160" alt="{964CA9CD-9ED4-4356-9240-3655AD2E028E}" src="https://github.com/user-attachments/assets/62fd5523-37e2-4f8c-a20b-0d0d9df3d7e4" width="600"/>
 </p>
