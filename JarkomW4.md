@@ -1,9 +1,8 @@
 # Modul 4 DNS
-Nama       : Muhammad Rajwa Al Fathan Koessaputra  
-NIM        : 103072400113  
+Nama       : Dyandra
+NIM        : 103072400161 
 Kelas      : IF-04-05  
 Mata Kuliah: Jaringan Komputer  
-__________________________________________
 
 Tujuan Praktikum
 - mahasiswa dapat mempelajari cara kerja protokol DNS menggunakan Wireshark.
@@ -21,10 +20,12 @@ Nslookup adalah perintah yang digunakan untuk melakukan query ke server DNS guna
 </p>
 
 2) Perintah nslookup -type=NS mit.edu digunakan untuk mengetahui Name Server (NS) yang menangani domain mit.edu. Perintah ini mengirim permintaan ke server DNS untuk melihat server mana saja yang mengelola domain tersebut.
-![3ec2a305-25a8-4099-a65e-b472469d8ccb](https://github.com/user-attachments/assets/1a221639-5f7d-4b0d-9355-836cc6adc873)
+<img width="743" height="592" alt="image" src="https://github.com/user-attachments/assets/d65c3a84-ff67-4051-9db4-687187d13d54" />
 
-3) tulis nslookup [www.aiit.or.kr](http://www.aiit.or.kr) bitsy.mit.edu digunakan untuk mencari informasi DNS dari domain [www.aiit.or.kr](http://www.aiit.or.kr) dengan menggunakan server DNS tertentu, yaitu bitsy.mit.edu.
-![49567cd9-1419-4ddf-9615-db529bea7615](https://github.com/user-attachments/assets/5e51c37c-2915-479d-bc91-357b97e65580)
+
+
+3) tulis nslookup [www.aiit.or.kr](http://www.aiit.or.kr) bitsy.mit.edu digunakan untuk mencari informasi DNS dari domain <img width="655" height="296" alt="image" src="https://github.com/user-attachments/assets/d3bac046-04bf-4de7-ab75-8fa896090f85" />
+
 
 ## Pertanyaan
 1. Mencari IP server web di Asia
