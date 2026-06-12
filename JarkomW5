@@ -1,7 +1,7 @@
 # Modul 5 UDP
 
 Tujuan Praktikum
-- Kita sebagai mahasiswa dapat mempelajari cara kerja protokol UDP menggunakan Wireshark.
+Kita sebagai mahasiswa dapat mempelajari cara kerja protokol UDP menggunakan Wireshark.
 
 ## UDP
 UDP (User Datagram Protocol) adalah salah satu protokol di lapisan transport pada model TCP/IP yang digunakan untuk mengirim data secara langsung tanpa perlu membangun koneksi terlebih dahulu. Artinya, sebelum data dikirim, tidak ada proses “jabat tangan” seperti pada TCP data bisa langsung dikirim begitu saja.
@@ -25,11 +25,11 @@ UDP (User Datagram Protocol) adalah salah satu protokol di lapisan transport pad
    Jawab: Terdapat 4 field : Source Port, Destination Port, Length, Checksum
    
 2. Panjang masing - masing dari dari field yang ada pada soal 1 yaitu :
-   - Source port: 2 byte
-   - Destination port: 2 byte
-   - Lenght: 2 byte
-   - Checksum: 2 byte 
-   - di karenakan Header UDP selalu memiliki ukuran tetap 8 byte dan pada percobaan di atas ada 4 field jadi setiap field memiliki panjang 2 byte
+   Source port: 2 byte
+   Destination port: 2 byte
+   Lenght: 2 byte
+   Checksum: 2 byte 
+   di karenakan Header UDP selalu memiliki ukuran tetap 8 byte dan pada percobaan di atas ada 4 field jadi setiap field memiliki panjang 2 byte
 
 3) Length
    
