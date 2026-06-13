@@ -174,11 +174,11 @@ while True:
 ```html
 <html>
 <head>
-    <title>Web Fathan Gaming</title>
+    <title>SELAMAT DATANG</title>
 </head>
 <body>
-    <h1>Hallo aku fathan</h1>
-    <p>Disini web servernya sudah bisa dan selamat datang di web fathan gaming</p>
+    <h1>Hallo</h1>
+    <p>Disini web servernya sudah bisa</p>
 </body>
 </html>
 ```
@@ -188,7 +188,8 @@ while True:
 2. Setelah itu Buka browser ketikan URL "http://localhost:6789/Index.html"
 3. Maka akan muncul tampilan seperti ini:
 
-<img width="1600" height="621" alt="image" src="https://github.com/user-attachments/assets/8ed3e9a4-13fa-4597-874d-b0de9dabd472" />
+<img width="617" height="240" alt="{739D5CFD-52D7-40E9-8DF2-A116FEF1B1C2}" src="https://github.com/user-attachments/assets/bfb6da37-f124-430a-bfc9-6679cb558fe6" />
+
 
 4. Selesai
 
