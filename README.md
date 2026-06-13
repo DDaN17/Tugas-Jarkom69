@@ -24,32 +24,6 @@
 | 🏫 **Kelas** | IF-04-05 |
 | 📚 **Mata Kuliah** | Jaringan Komputer |
 
----
-
-## 📁 Struktur Repository
-
-```
-Tugas-Jarkom69/
-│
-├── 📂 ASETBERHARGA/          # Aset gambar & screenshot
-├── 📝 JarkomW1&2.md          # Worksheet 1 & 2
-├── 📝 JarkomW3.md            # Worksheet 3
-├── 📝 JarkomW4               # Worksheet 4
-└── 📄 README.md              
-```
-
----
-
-## 📋 Daftar Tugas
-
-| No | Worksheet | Topik | Status |
-|----|-----------|-------|--------|
-| 1 | JarkomW1&2 | Transport Layer | ✅ Done |
-| 2 | JarkomW3 | HTTP & Wireshark | ✅ Done |
-| 3 | JarkomW4 | Coming soon | Belum |
-
----
-
 ## 🛠️ Tools yang Digunakan
 
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
@@ -61,7 +35,7 @@ Tugas-Jarkom69/
 
 <div align="center">
 
-**© 2025 Dyandra Alifyan Nugroho — Teknik Informatika, Telkom University**
+**© 2025 Dyandra Alifyan Nugroho — Informatika, Telkom University**
 
 *"Komputer Adalah PC."*
 
