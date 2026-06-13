@@ -79,63 +79,83 @@ serverSocket.close() # menutup socket
 7. Jika kita ketik exit kita akan keluar dan server berhenti
 
 Output Contoh di terminal:
-
+<img width="928" height="152" alt="{76BD0AF5-5BF8-4439-BF21-43F7EB645FDB}" src="https://github.com/user-attachments/assets/668512e9-08a5-4247-bfc4-e53fdf8a88af" />
 
 ## Implementasi UDP
 ### UDP Client
 ```python
 from socket import *
+import traceback
 
-serverName = 'localhost'  # ganti dari IP spesifik ke localhost
-serverPort = 12000
-clientSocket = socket(AF_INET, SOCK_DGRAM)
+try:
+    serverName = 'localhost'
+    serverPort = 13000
+    clientSocket = socket(AF_INET, SOCK_DGRAM)
 
-print("[SYSTEM] Masukkan pesan (ketik 'exit' untuk keluar)\n")
+    print("[SYSTEM] Masukkan pesan (ketik 'exit' untuk keluar)\n", flush=True)
 
-while True:
-    message = input("> ")
+    while True:
+        message = input("> ")
 
-    if not message:
-        continue
+        if not message:
+            continue
 
-    clientSocket.sendto(message.encode(), (serverName, serverPort))
+        clientSocket.sendto(message.encode(), (serverName, serverPort))
 
-    if message.lower() == 'exit':
-        print("[SYSTEM] Keluar dari program.")
-        break
+        if message.lower() == 'exit':
+            print("[SYSTEM] Keluar dari program.")
+            break
 
-    balasan, _ = clientSocket.recvfrom(2048)
-    print(f"[SERVER] pesan: {balasan.decode()}\n")
+        balasan, _ = clientSocket.recvfrom(2048)
+        print(f"[SERVER] pesan: {balasan.decode()}\n")
 
-clientSocket.close()
-print("[SYSTEM] Socket ditutup.")
+    clientSocket.close()
+    print("[SYSTEM] Socket ditutup.")
+
+except Exception as e:
+    print(f"\n[ERROR] {e}")
+    traceback.print_exc()
+
+finally:
+    input("\nTekan Enter untuk keluar...")
 ```
 
 ### UDP Server
 ```python
 from socket import *
+import traceback
 
-serverPort = 12000
-serverSocket = socket(AF_INET, SOCK_DGRAM)
-serverSocket.bind(('', serverPort))
+try:
+    serverName = 'localhost'
+    serverPort = 13000
+    clientSocket = socket(AF_INET, SOCK_DGRAM)
 
-print(f"[SYSTEM] Server UDP siap di port {serverPort}")
+    print("[SYSTEM] Masukkan pesan (ketik 'exit' untuk keluar)\n", flush=True)
 
-while True:
-    message, clientAddress = serverSocket.recvfrom(2048)
-    original = message.decode().strip()
-    print(f"[SERVER] Diterima: {original}")
+    while True:
+        message = input("> ")
 
-    if original.lower() == 'exit':
-        print("[SYSTEM] Server dimatikan.")
-        serverSocket.sendto("Server dimatikan.".encode(), clientAddress)
-        break
+        if not message:
+            continue
 
-    balasan = original.upper()
-    print(f"[SERVER] Mengirim balik: {balasan}")
-    serverSocket.sendto(balasan.encode(), clientAddress)
+        clientSocket.sendto(message.encode(), (serverName, serverPort))
 
-serverSocket.close()
+        if message.lower() == 'exit':
+            print("[SYSTEM] Keluar dari program.")
+            break
+
+        balasan, _ = clientSocket.recvfrom(2048)
+        print(f"[SERVER] pesan: {balasan.decode()}\n")
+
+    clientSocket.close()
+    print("[SYSTEM] Socket ditutup.")
+
+except Exception as e:
+    print(f"\n[ERROR] {e}")
+    traceback.print_exc()
+
+finally:
+    input("\nTekan Enter untuk keluar...")
 ```
 ### Alur UDP
 1. Server dijalankan
@@ -147,4 +167,5 @@ serverSocket.close()
 7. Jika kita ketik exit kita akan keluar dan server berhenti
 
 Output Contoh di terminal:
-<img width="1147" height="466" alt="image" src="https://github.com/user-attachments/assets/5f4bbbd3-887c-4128-b813-df5ff275095e" />
+<img width="1014" height="189" alt="{2FA3AA96-C944-4AEF-A07F-B6C8CD4B6709}" src="https://github.com/user-attachments/assets/31f4e2ec-568e-4682-8a63-921369fa0c53" />
+
