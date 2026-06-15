@@ -3,7 +3,9 @@ Mahasiswa diharapkan dapat memahami mekanisme kerja protokol DHCP melalui pengam
 DHCP
 Apa Itu DHCP?
 
-## DHCP (Dynamic Host Configuration Protocol) merupakan sebuah protokol jaringan yang berfungsi untuk mendistribusikan konfigurasi jaringan secara otomatis kepada setiap perangkat yang terhubung. Informasi yang didistribusikan meliputi alamat IP, subnet mask, gateway, serta DNS server, sehingga pengguna tidak perlu melakukan pengaturan secara manual.
+## DHCP (Dynamic Host Configuration Protocol) 
+
+merupakan sebuah protokol jaringan yang berfungsi untuk mendistribusikan konfigurasi jaringan secara otomatis kepada setiap perangkat yang terhubung. Informasi yang didistribusikan meliputi alamat IP, subnet mask, gateway, serta DNS server, sehingga pengguna tidak perlu melakukan pengaturan secara manual.
 Kelebihan DHCP
 
 Proses pemberian alamat IP berlangsung secara otomatis dan efisien.
