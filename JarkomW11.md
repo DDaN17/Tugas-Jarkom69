@@ -1,49 +1,40 @@
 Tujuan Praktikum
-mahasiswa dapat mempelajari cara kerja protokol DHCP menggunakan Wireshark.
+Mahasiswa diharapkan dapat memahami mekanisme kerja protokol DHCP melalui pengamatan menggunakan aplikasi Wireshark.
+DHCP
+Apa Itu DHCP?
 
-## DHCP
-Apa Itu DHCP? DHCP (Dynamic Host Configuration Protocol) adalah protokol yang digunakan untuk memberikan konfigurasi jaringan secara otomatis kepada perangkat yang terhubung ke jaringan. Konfigurasi yang diberikan meliputi IP Address, subnet mask, gateway, dan DNS server, sehingga pengguna tidak perlu mengaturnya secara manual.
-
+## DHCP (Dynamic Host Configuration Protocol) merupakan sebuah protokol jaringan yang berfungsi untuk mendistribusikan konfigurasi jaringan secara otomatis kepada setiap perangkat yang terhubung. Informasi yang didistribusikan meliputi alamat IP, subnet mask, gateway, serta DNS server, sehingga pengguna tidak perlu melakukan pengaturan secara manual.
 Kelebihan DHCP
-1. Pemberian IP address menjadi otomatis dan cepat.
-2. Memudahkan pengelolaan alamat IP.
-3. Menghindari konflik IP address.
-4. Mengurangi kesalahan konfigurasi.
-5. Cocok untuk jaringan dengan banyak perangkat.
 
-Kekurangan DHCP
-1. IP address perangkat dapat berubah-ubah.
-2. Memerlukan server DHCP yang dikonfigurasi dengan baik.
-3. Jika server DHCP bermasalah, klien tidak dapat memperoleh IP address.
-4. Keamanan dapat berkurang jika pengelolaannya kurang baik.
+Proses pemberian alamat IP berlangsung secara otomatis dan efisien.
+Pengelolaan alamat IP menjadi lebih mudah dan terstruktur.
+Mencegah terjadinya duplikasi atau konflik alamat IP antar perangkat.
+Meminimalkan risiko kesalahan dalam konfigurasi jaringan.
+Sangat sesuai diterapkan pada jaringan dengan jumlah perangkat yang banyak.
+
+## Kekurangan DHCP
+
+Alamat IP yang diperoleh perangkat bersifat dinamis dan dapat berubah sewaktu-waktu.
+Membutuhkan konfigurasi server DHCP yang tepat agar dapat berjalan dengan baik.
+Apabila server DHCP mengalami gangguan, klien tidak dapat memperoleh alamat IP.
+Tingkat keamanan jaringan dapat menurun jika pengelolaan DHCP tidak dilakukan dengan baik.
 
 ## DORA
-DORA adalah proses komunikasi antara klien dan server DHCP untuk mendapatkan IP address secara otomatis. DORA terdiri dari empat tahap, yaitu Discover, Offer, Request, dan Acknowledgement (ACK).
+DORA merupakan rangkaian proses komunikasi antara klien dan server DHCP untuk memperoleh alamat IP secara otomatis. Proses ini terdiri atas empat tahapan, yaitu Discover, Offer, Request, dan Acknowledgement (ACK).
+Langkah-langkah
 
-**Langkah-langkah**
-1. Download dan setelah itu ekstrak file http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
-2. Buka file DHCP menggunakan Wireshark
+Pertama-tama Unduh file melalui tautan http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip, kemudian ekstrak file hasil unduhan tersebut.
+Lalu Buka file capture DHCP yang telah diekstrak menggunakan aplikasi Wireshark.
 
-<img width="1600" height="945" alt="image" src="https://github.com/user-attachments/assets/656099ca-98da-4dc7-96d3-271c13c27edc" />
+<img width="640" height="374" alt="{3D1B901C-5C83-462A-A96D-BAD81756B74F}" src="https://github.com/user-attachments/assets/f256426b-6169-4e9f-8358-628674d913eb" />
 
-3. Gunakan filter dhcp untuk menampilkan paket DHCP saja
+Terapkan filter dhcp agar hanya paket-paket DHCP saja yang ditampilkan.
 
-<img width="1918" height="1138" alt="image" src="https://github.com/user-attachments/assets/e05e3015-bad2-4098-b36a-358d55cc7021" />
+<img width="648" height="365" alt="{838F50EC-6622-4A37-8380-364AB2737D0A}" src="https://github.com/user-attachments/assets/07fa56a2-ade1-4bb8-ad2c-1fc992bd0e5c" />
 
-##  Tahapan DORA
+## Tahapan DORA
 
-1. Discover
-
-   Client mengirim pesan DHCP Discover untuk mencari server DHCP yang tersedia. Karena belum memiliki IP address, paket dikirim menggunakan alamat 0.0.0.0 dan bersifat broadcast.
-
-2. Offer
-
-   Server DHCP merespons dengan DHCP Offer, yang berisi penawaran IP address dan konfigurasi jaringan lainnya.
-
-3. Request
-
-   Client memilih salah satu penawaran lalu mengirim DHCP Request sebagai tanda persetujuan untuk menggunakan IP address tersebut.
-
-4. Acknowledgement (ACK)
-
-   Server mengirim DHCP ACK untuk mengonfirmasi pemberian IP address. Setelah itu, client dapat mulai menggunakan jaringan.
+Discover – Pada tahap ini, klien mengirimkan pesan DHCP Discover untuk menemukan server DHCP yang tersedia di jaringan. Karena klien belum memiliki alamat IP, pesan tersebut dikirim dari alamat 0.0.0.0 dan disebarkan secara broadcast.
+Offer – Setelah menerima pesan Discover, server DHCP akan merespons dengan mengirimkan DHCP Offer yang berisi tawaran alamat IP beserta konfigurasi jaringan lainnya.
+Request – Klien memilih salah satu penawaran yang diterima, lalu mengirimkan DHCP Request sebagai bentuk persetujuan untuk menggunakan alamat IP tersebut.
+Acknowledgement (ACK) – Sebagai tahap akhir, server mengirimkan DHCP ACK untuk mengonfirmasi bahwa alamat IP telah resmi diberikan kepada klien. Setelah itu, klien dapat mulai menggunakan jaringan.
