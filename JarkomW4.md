@@ -5,7 +5,6 @@ Tujuan Praktikum
 ## DNS
 DNS (Domain Name System) adalah sistem yang mengubah nama domain (seperti google.com) menjadi alamat IP. DNS bekerja dengan mengirim permintaan ke server DNS lokal, lalu menerima hasilnya.
 
-## 4.2 Nslookup
 Nslookup adalah perintah yang digunakan untuk melakukan query ke server DNS guna mendapatkan informasi tentang domain atau host, seperti alamat IP, nama domain, dan record DNS lainnya. Perintah ini bekerja dengan mengirim permintaan ke server DNS tertentu, lalu menampilkan hasil responsnya kepada pengguna.
 
 ### Contoh Penggunaannya:
@@ -48,7 +47,7 @@ Nslookup adalah perintah yang digunakan untuk melakukan query ke server DNS guna
 </p>
 
 
-## 4.3 Ipconfig
+Ipconfig
 Ipconfig digunakan untuk mengelola informasi DNS yang tersimpan di komputer (host). Komputer dapat menyimpan hasil DNS yang baru saja didapat. Untuk melihat data yang tersimpan, setelah prompt C:> masukkan perintah berikut:
 
 1) Tulis "ipconfig /all" digunakan untuk menampilkan informasi lengkap konfigurasi jaringan pada komputer, seperti nama host, status jaringan, alamat IP, subnet mask, gateway, DNS server, dan informasi lain dari adaptor jaringan.
@@ -65,7 +64,7 @@ Ipconfig digunakan untuk mengelola informasi DNS yang tersimpan di komputer (hos
 <img width="362" height="122" alt="{1A34A2D1-DC31-46CF-8394-B3D7B707FC59}" src="https://github.com/user-attachments/assets/7534d354-6b37-40c6-8b3e-a7e09b15b540" />
 
 
-# 4.4 Tracing DNS dengan Wireshark
+Tracing DNS dengan Wireshark
 Mempelajari cara memantau dan menganalisis paket data DNS yang dikirim dan diterima oleh komputer, sehingga kita bisa melihat bagaimana permintaan domain dikirim ke server dan bagaimana responsnya diterima. Hal ini berguna untuk memahami cara kerja DNS dan membantu dalam troubleshooting jaringan.
 
 ## A. Analisis DNS Request dan Response pada Akses Website (www.ietf.org)
