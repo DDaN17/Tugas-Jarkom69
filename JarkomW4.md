@@ -1,6 +1,6 @@
 # Modul 4 DNS
 Tujuan Praktikum
-- mahasiswa dapat mempelajari cara kerja protokol DNS menggunakan Wireshark.
+mahasiswa dapat mempelajari cara kerja protokol DNS menggunakan Wireshark.
 
 ## DNS
 DNS (Domain Name System) adalah sistem yang mengubah nama domain (seperti google.com) menjadi alamat IP. DNS bekerja dengan mengirim permintaan ke server DNS lokal, lalu menerima hasilnya.
